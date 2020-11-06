@@ -1,4 +1,4 @@
-package com.Practice7;
+package com.company.Furniture;
 
 public abstract class Furniture {
 
@@ -43,17 +43,16 @@ public abstract class Furniture {
 
 
     final public void printInfo() {
-        System.out.println("PROPERTIES:\n" +
-                           "WIDTH: " + this.width + "\n" +
-                           "LENGTH: " + this.length + "\n" +
-                           "HEIGHT: " + this.length + "\n" +
-                           "COLOR: " + this.color + "\n" +
-                           "MODEL: " + this.model + "\n" +
-                           "PRICE: " + this.price + "\n");
+        System.out.println("Width: " + this.width + "\n" +
+                           "Length: " + this.length + "\n" +
+                           "Height: " + this.length + "\n" +
+                           "Color: " + this.color + "\n" +
+                           "Model: " + this.model + "\n" +
+                           "Price: " + this.price + "\n");
     }
 
 
 
-    public abstract void advertise();
+    public abstract void made_of();
 
 }

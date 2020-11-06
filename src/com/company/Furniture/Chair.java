@@ -1,4 +1,4 @@
-package com.Practice7;
+package com.company.Furniture;
 
 public class Chair extends Furniture {
 
@@ -8,18 +8,9 @@ public class Chair extends Furniture {
         super(width, length, height, price, model, color);
     }
 
-
-
     @Override
-    public void advertise() {
-        System.out.println("PLEASE BUY ME! YOU CAN SIT ON ME! I'LL BRING COMFORT TO YOU!!!");
-    }
-
-
-
-    @Override
-    public String toString() {
-        return "I am a chair actually";
+    public void made_of() {
+        System.out.println("I am made of 2 sticks");
     }
 
 

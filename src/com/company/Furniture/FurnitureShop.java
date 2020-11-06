@@ -1,4 +1,4 @@
-package com.Practice7;
+package com.company.Furniture;
 import java.util.ArrayList;
 
 public class FurnitureShop {
@@ -9,23 +9,23 @@ public class FurnitureShop {
 
 
 
-    public void addItem(Furniture item) {
+    public void add_item(Furniture item) {
         furnitures.add(item);
     }
 
-    public void removeItem(Furniture item) {
+    public void remove_item(Furniture item) {
         furnitures.remove(item);
     }
 
-    public void printItems() {
+    public void print_items() {
         for (Furniture item : furnitures) {
             item.printInfo();
         }
     }
 
-    public void printAds() {
+    public void print_ads() {
         for (Furniture item : furnitures) {
-            item.advertise();
+            item.made_of();
         }
     }
 

@@ -1,4 +1,4 @@
-package com.Practice7;
+package com.company.Dog;
 
 public abstract class Dog {
 
@@ -27,6 +27,6 @@ public abstract class Dog {
 
 
 
-    public abstract void barkInfo();
+    public abstract void bark();
 
 }
